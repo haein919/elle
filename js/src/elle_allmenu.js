@@ -4,7 +4,7 @@
  // jQuery start
  
  var menuList = [
-   {'titlemenu': {'tname': 'fashion', 'tlink': 'url(./elle.html)','target':'_blank'},
+   {'titlemenu': {'tname': 'fashion', 'tlink': './elle_fashion.html','target':'_blank'},
     'submenu': [{'sname':'trends', 'slink': 'https://www.elle.co.kr/fashion/trends'},
                 {'sname': 'celebrity style', 'slink':'https://www.elle.co.lr/fashion/celebritystyle'},
                 {'sname': 'howto', 'slink':'https://www.elle.co.lr/fashion/howto'},
@@ -12,7 +12,7 @@
                 {'sname': 'fashion week', 'slink':'https://www.elle.co.lr/fashion/fashionweek'},
                 {'sname': 'designers', 'slink':'https://www.elle.co.lr/fashion/designers'}] },
   
-   {'titlemenu': {'tname': 'beauty', 'tlink': 'url(./elle.html)','target':'_blank'},
+   {'titlemenu': {'tname': 'beauty', 'tlink': './elle.html','target':'_blank'},
    'submenu': [{'sname':'make-up', 'slink': 'https://www.elle.co.kr/beauty/makeup'},
                {'sname': 'skincare', 'slink':'https://www.elle.co.lr/beauty/skincare'},
                {'sname': 'hair', 'slink':'https://www.elle.co.lr/beauty/hair'},
@@ -20,12 +20,12 @@
                {'sname': 'health', 'slink':'https://www.elle.co.lr/beauty/health'},
                {'sname': 'beauty item', 'slink':'https://www.elle.co.lr/beauty/beautyitem'}] },
 
-   {'titlemenu': {'tname': 'star', 'tlink': 'url(./elle.html)','target':'_blank'},
+   {'titlemenu': {'tname': 'star', 'tlink': './elle.html','target':'_blank'},
    'submenu': [{'sname':'interview', 'slink': 'https://www.elle.co.kr/star/interview'},
                {'sname': 'gossip', 'slink':'https://www.elle.co.lr/star/gossip'},
                {'sname': 'celeb news', 'slink':'https://www.elle.co.lr/beauty/celebnews'}] },
 
-   {'titlemenu': {'tname': 'love&life', 'tlink': 'url(./elle.html)','target':'_blank'},
+   {'titlemenu': {'tname': 'love&life', 'tlink': './elle.html','target':'_blank'},
    'submenu': [{'sname':'travel', 'slink': 'https://www.elle.co.kr/loveandlife/travel'},
                {'sname': 'food', 'slink':'https://www.elle.co.lr/loveandlife/food'},
                {'sname': 'tech', 'slink':'https://www.elle.co.lr/loveandlife/tech'},
@@ -33,8 +33,8 @@
                {'sname': 'relation tips', 'slink':'https://www.elle.co.lr/loveandlife/relationtips'},
                {'sname': 'love', 'slink':'https://www.elle.co.kr/loveandlife/love'}] },
 
-   {'titlemenu': {'tname': 'horoscope', 'tlink': 'url(./elle.html)','target':'_blank'}},
-   {'titlemenu': {'tname': 'event', 'tlink': 'url(./elle.html)','target':'_blank'}}
+   {'titlemenu': {'tname': 'horoscope', 'tlink': './elle.html','target':'_blank'}},
+   {'titlemenu': {'tname': 'event', 'tlink': './elle.html','target':'_blank'}}
  ];
 
  var menuTag ='<li><dl><dt></dt><dd></dd></dl></li>';

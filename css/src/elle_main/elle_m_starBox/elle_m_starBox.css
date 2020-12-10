@@ -1,1 +1,6 @@
 /* elle_m_starBox.css */
+
+@import url('../elle_m_starBox/elle_m_star_mob.css');
+@import url('../elle_m_starBox/elle_m_star_tab.css');
+@import url('../elle_m_starBox/elle_m_star_pc.css');
+@import url('../elle_m_starBox/elle_m_star_pcFull.css');

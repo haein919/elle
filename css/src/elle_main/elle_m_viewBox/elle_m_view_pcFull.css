@@ -1,0 +1,20 @@
+/* elle_m_view_pcFull.css */
+
+/* pcFull.css */
+@media screen and (min-width:1440px) {
+  /* 브라우저 가로폭1920px 기준으로 작업 */
+  /* #viewBox ================================================================================== */
+  #viewBox { width:100%; height:auto; max-height:67.5vw; margin-bottom:350px; background-color:#ffd798; }
+  .view_outer { width:100%; height:auto; }
+  .view_big_img { float:left; width:60%; height:100%; min-height:67.5vw;
+    background-image:url('../../../../img/main/main_big.jpg'); background-repeat:no-repeat;
+    background-position:50% 50%; background-size:cover; }
+  .view_small_img { float:right; width:40%; height:auto; max-height:67.5vw; margin-top:7vw;
+    padding-top:7vw; }
+  .view_small_img span { display: block; width:26vw; height:45vw;   
+    margin:auto;
+    background-image:url('../../../../img/main/main_small.jpg'); background-repeat:no-repeat;
+    background-position:50% 50%; background-size:cover;  }
+
+}
+

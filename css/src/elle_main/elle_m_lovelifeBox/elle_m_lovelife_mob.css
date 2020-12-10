@@ -1,1 +1,50 @@
-/* elle_m_beauty_mob.css */
+/* elle_m_lovelife_mob.css */
+
+/* mob.css */
+@media screen and (max-width:599px) {
+  /* 브라우저 가로폭480px 기준으로 작업 */
+/* lovelifeBox ================================================================================ */
+  #lovelifeBox { width:100%; height:auto; min-height:125vw; padding-top:50px; box-sizing:border-box; }
+ .lovelife_outer { width:100%; height:auto; padding:30px 30px 20px; box-sizing:border-box;
+  background-color:#fff; border-top-left-radius:15px; border-top-right-radius:15px; }
+
+  .lovelife_img_area { width:100%; height:auto; min-height:97.916666vw; margin-top:1.25rem; }
+  .lovelife_img_area ul { width:100%; height:auto; }
+  .lovelife_img_area li { position:relative; width:100%; height:35vw; margin-bottom:50px;
+    border-radius:15px; background-color:#eee; }
+    .lovelife_img_area li:last-child { margin-bottom:0; }
+    .ll_img { float:left; width:40%; height:100%; border-radius:10px; }
+    .ll_img a { display:block; width:100%; height:100%; min-height:20.83333vw;
+      border-top-left-radius:10px; border-bottom-left-radius:10px; background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+    
+    .ll_img_01 a { background-image:url('../../../../img/main/main_lovlife01.jpg');}
+    .ll_img_02 a { background-image:url('../../../../img/main/main_lovlife02.jpg');}
+    .ll_img_03 a { background-image:url('../../../../img/main/main_lovlife03.jpg');}
+    .ll_img_04 a { background-image:url('../../../../img/main/main_lovlife04.jpg');}
+
+    .ll_context { float:right; width:60%; height:auto; }
+    .ll_context dl { width:100%; height:100%; padding:10px; box-sizing:border-box; }
+    .ll_context dt { width:100%; height:20%; font-size:1rem; font-weight:bold; word-break:keep-all; }
+    .ll_context dd { width:100%; height:70%; margin-top:5px; font-size:1rem; color:#333; word-break:keep-all; line-height:1; }
+    .ll_context button { position:absolute; bottom:10px; right:10px; font-size:1rem;
+      width:60px; height:30px; border-radius:5px; background-color:#444; color:#fff; }
+}
+
+/* mob_02.css */
+@media screen and (max-width:450px) {
+  .lovelife_img_area { width:100%; height:auto; min-height:97.916666vw; margin-top:1.25rem; }
+    .lovelife_img_area ul { width:100%; height:auto; }
+    .lovelife_img_area li { width:100%; height:auto; min-height:20.833333vw; margin-bottom:20px;
+      padding:10px; box-sizing:border-box;
+      background-color:#fff; }
+      .ll_img { float:none; margin:auto; width:100%; max-width:240px; height:200px; border-radius:0; }
+      .ll_img a { display:block; position:relative; width:100%; height:100%; border-radius:10px;
+       background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+  
+      .ll_context { float:none; position:relative; width:80%; height:auto; margin:auto; }
+      .ll_context dl { width:100%; height:100%; padding:10px; box-sizing:border-box; text-align:center; }
+      .ll_context dt { width:100%; height:20%; font-size:1rem; font-weight:bold; word-break:keep-all; }
+      .ll_context dd { width:100%; height:70%; margin-top:5px; font-size:1rem; color:#333; word-break:keep-all; }
+      .ll_context button {display:block; position:static; margin:auto; margin-top:10px;
+        width:60px; height:30px; border-radius:5px; background-color:#444; color:#fff; }
+}

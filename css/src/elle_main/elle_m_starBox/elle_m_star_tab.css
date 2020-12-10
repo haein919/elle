@@ -1,1 +1,36 @@
-/* elle_m_beauty_tab.css */
+/* elle_m_star_tab.css */
+
+/* tab.css */
+@media screen and (min-width:600px) and (max-width:1023px) {
+  /* 브라우저 가로폭1024px 기준으로 작업 */
+/* #starBox ========================================================== */
+  #starBox { width:100%; height:auto; max-height:58.59375vw;
+    margin-bottom:50px; }
+  .star_outer { width:100%; height:auto; max-height:58.59375vw; }
+  .star_outer h3 { float:left; width:10%; height:100%; 
+    margin-left:3vw; margin-top:40px; font-size:1.8rem; text-transform:uppercase; writing-mode:vertical-rl; text-orientation: upright; letter-spacing:1rem; }
+  
+  .star_img_area { float:right; width:80%; height:auto; }
+  .star_img_area ul { width:100%; height:100%; }
+  .star_img_area li { float:left; width:33.333333%; height:26.367187vw; }
+  .star_img_area li a { display:block; position:relative; 
+    width:100%; height:100%; transition:all 300ms ease;
+    background-repeat:no-repeat; background-position:50% 50%;background-size:cover;}
+
+  .star_img01 a { background-image:url('../../../../img/main/main_star01.jpg'); }
+  .star_img02 a { background-image:url('../../../../img/main/main_star02.jpg'); }
+  .star_img03 a { background-image:url('../../../../img/main/main_star03.jpg'); }
+  .star_img04 a { background-image:url('../../../../img/main/main_star04.jpg'); }
+  .star_img05 a { background-image:url('../../../../img/main/main_star05.jpg'); }
+  .star_img06 a { background-image:url('../../../../img/main/main_star06.jpg'); }
+
+  .star_img_area li a::before { content:" "; display: block; 
+    position:absolute; top:0; left:0;
+    width:100%; height:100%; opacity:1; transition:all 300ms ease; background-color: rgba(0,0,0,0.7); border:8px solid #a00;
+    box-sizing:border-box; opacity: 0;}
+
+  .center_line {display: block; position: absolute; z-index:10; top: 50%; left: 0; width: 100%; height:0; background-color: #fff; text-align: center; color:#fff; }
+  .center_line > .center_text{ display: block; width: 100%; height: auto; transform:translateY(-10%); transition: all 300ms ease; opacity: 0; }
+  .star_img_area li a:hover .center_text{ transform:translateY(-50%); opacity: 1;}
+  .star_img_area li a:hover::before{opacity: 1; }
+}

@@ -1,1 +1,37 @@
-/* elle_m_beauty_pcFull.css */
+/* elle_m_star_pcFull.css */
+
+/* pcFull.css */
+@media screen and (min-width:1440px) {
+  /* 브라우저 가로폭1920px 기준으로 작업 */
+  /* #starBox ============================================================================================ */
+  #starBox { width:100%; height:auto;  margin-bottom:250px; }
+  .star_outer { width:73.958333vw; height:auto; max-height:36.458333vw; margin:auto; }
+  .star_outer h3 { float:left; width:auto; height:auto; margin-top:40px; 
+    font-size:2rem; text-transform:uppercase; letter-spacing:1rem; text-align:center; }
+
+  .star_img_area { float:right; width:80%; height:auto;  }
+  .star_img_area ul { width:auto; height:100%; }
+  .star_img_area li { float:left; width:19vw; height:17.7vw; margin-right:15px; }
+  .star_img_area li:nth-child(-n+3) { margin-bottom:15px; }
+  .star_img_area li:nth-child(3n) { margin-right:0; }
+  .star_img_area li a { display:block; position:relative; 
+    width:100%; height:100%; transition:all 300ms ease;
+    background-repeat:no-repeat; background-position:50% 50%;background-size:cover;}
+
+  .star_img01 a { background-image:url('../../../../img/main/main_star01.jpg'); }
+  .star_img02 a { background-image:url('../../../../img/main/main_star02.jpg'); }
+  .star_img03 a { background-image:url('../../../../img/main/main_star03.jpg'); }
+  .star_img04 a { background-image:url('../../../../img/main/main_star04.jpg'); }
+  .star_img05 a { background-image:url('../../../../img/main/main_star05.jpg'); }
+  .star_img06 a { background-image:url('../../../../img/main/main_star06.jpg'); }
+
+  .star_img_area li a::before { content:" "; display: block; 
+    position:absolute; top:0; left:0;
+    width:100%; height:100%; opacity:1; transition:all 300ms ease; background-color: rgba(0,0,0,0.7); border:8px solid #a00;
+    box-sizing:border-box; opacity: 0;}
+
+  .center_line {display: block; position: absolute; z-index:10; top: 50%; left: 0; width: 100%; height:0; background-color: #fff; text-align: center; color:#fff; }
+  .center_line > .center_text{ display: block; width: 100%; height: auto; transform:translateY(-10%); transition: all 300ms ease; opacity: 0; }
+  .star_img_area li a:hover .center_text{ transform:translateY(-50%); opacity: 1;}
+  .star_img_area li a:hover::before{opacity: 1; }
+}

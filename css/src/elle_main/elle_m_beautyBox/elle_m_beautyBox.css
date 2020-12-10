@@ -1,1 +1,6 @@
 /* elle_m_beautyBox.css */
+
+@import url('../elle_m_beautyBox/elle_m_beauty_mob.css');
+@import url('../elle_m_beautyBox/elle_m_beauty_tab.css');
+@import url('../elle_m_beautyBox/elle_m_beauty_pc.css');
+@import url('../elle_m_beautyBox/elle_m_beauty_pcFull.css');

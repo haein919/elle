@@ -1,0 +1,6 @@
+/* elle_fashion.css */
+
+@import url('./elle_f_common.css');
+@import url('../elle_headBox/elle_headBox.css');
+@import url('../elle_footBox/elle_footBox.css');
+@import url('./elle_f_viewBox/elle_f_viewBox.css');

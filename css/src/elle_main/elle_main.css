@@ -1,1 +1,11 @@
 /* elle_main.css */
+
+@import url('./elle_m_common.css');
+@import url('../elle_headBox/elle_headBox.css');
+@import url('../elle_footBox/elle_footBox.css');
+@import url('./elle_m_fashionBox/elle_m_fashionBox.css');
+@import url('./elle_m_viewBox/elle_m_viewBox.css');
+@import url('./elle_m_beautyBox/elle_m_beautyBox.css');
+@import url('./elle_m_starBox/elle_m_starBox.css');
+@import url('./elle_m_lovelifeBox/elle_m_lovelifeBox.css');
+@import url('./elle_m_subscribeBox/elle_m_subscribeBox.css');

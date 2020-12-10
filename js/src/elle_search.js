@@ -13,6 +13,18 @@
   var issueLi = issueUl.find('li');
   var time = 500;
 
+ 
+  // 검색창 기능
+    searchBtn.on('click', function(e){
+      e.preventDefault();
+      searchPop.stop().fadeIn();
+    });
+  
+    searchClose.on('click', ['button'], function(e){
+      e.preventDefault();
+      searchPop.stop().fadeOut();
+    });
+
   var start;
   var slide = function(){
     start = setInterval(function(){

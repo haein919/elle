@@ -1,1 +1,34 @@
-/* elle_m_beauty_pcFull.css */
+/* elle_m_fashion_pcFull.css */
+
+/* pcFull.css */
+@media screen and (min-width:1440px) {
+  /* #fashionBox =================================================================================== */
+  #fashionBox { width:100%; height:auto; min-height:31.25vw; margin-bottom:350px; }
+  .fashion_outer { position:relative; width:73.958333vw; height:auto; min-height:31.25vw;
+    margin:auto;  }
+  
+  .fashion_outer h3 { position:absolute; top:50%; left:0; z-index:100; transform:translateY(-50%); font-size:2.5rem; text-transform:uppercase; letter-spacing:1rem; }
+  
+  .fashion_outer h3 { position:absolute; top:50%; left:0; z-index:100; 
+    transform:scale(1) translate(-10%, -80%); font-size:2rem; text-transform:uppercase; letter-spacing:1rem;
+    transition:all 300ms; opacity:0; }
+  
+  .fashion_outer.action h3 { transform:scale(1) translate(0, -50%); opacity:1; }
+  .fashion_outer.action .fashion_img_area { transform:translateX(0); opacity: 1;}
+  
+  .fashion_Nbtn { position:absolute; top:50%; right:5%; z-index:100; transform:translateY(-50%);
+    width:80px; height:80px; }
+  .fashion_Nbtn button { width:90%; height:90%; 
+    background-image:url('../../../../img/btn/next_btn_white.png');
+    background-repeat:no-repeat; background-position:50% 50%; background-size:cover; 
+    filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.5)); }
+  
+  .fashion_img_area { float:right; width:auto; height:31.25vw; transform:translateX(5rem); transition:all 300ms 100ms; opacity:0; }
+  .fashion_img_area ul { width:65.625vw; height:100%; }
+  .fashion_img_area li { position:absolute; top:0; right:0; z-index:50; width:65vw; height:100%; 
+    background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+  .fashion_img_area a { display: block; width:100%; height:100%; }
+  .fashion_img_area .fashion_img01 { background-image:url('../../../../img/main/main_fashion_big.jpg'); }
+  .fashion_img_area .fashion_img02 { z-index:40; background-image:url('../../../../img/main/main_fashion_big2.jpg'); }
+  .fashion_img_area li.action { z-index:80; }
+}

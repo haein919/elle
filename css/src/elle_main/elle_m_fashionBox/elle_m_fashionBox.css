@@ -1,1 +1,6 @@
 /* elle_m_fashionBox.css */
+
+@import url('../elle_m_fashionBox/elle_m_fashion_mob.css');
+@import url('../elle_m_fashionBox/elle_m_fashion_tab.css');
+@import url('../elle_m_fashionBox/elle_m_fashion_pc.css');
+@import url('../elle_m_fashionBox/elle_m_fashion_pcFull.css');

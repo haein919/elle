@@ -1,0 +1,8 @@
+/* elle_f_view_pc.css */
+
+/* pc.css */
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  /* 브라우저 가로폭1440px 기준으로 작업 */
+  /* #viewBox ================================================================================== */
+  #viewBox { width:100%; height:auto; max-height:67.5vw; margin-bottom:300px; background-color:#ffd798; }
+}

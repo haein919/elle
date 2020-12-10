@@ -19,15 +19,17 @@ var body = $('body');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
       body.append('<script src="../js/src/elle_topBtn.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_m_fashion.js"></script>');
     });
   }else if(nowT === dType[2]){
     wrap.load('./elleMain/elle_m_other.html', function(){
       body.append('<script src="../js/src/elle_m_other.js"></script>');
       body.append('<script src="../js/src/elle_menu.js"></script>');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
-      body.append('<script src="../js/src/elle_topBtn.js"></script>');
-      body.append('<script src="../js/src/elle_m_beauty.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_topBtn.js"></script>');
+      body.append('<script src="../js/src/elle_m_fashion.js"></script>');
+      body.append('<script src="../js/src/elle_m_beauty.js"></script>');
       body.append('<script src="../js/src/elle_m_lovelife.js"></script>');
     });
   }else{
@@ -35,9 +37,10 @@ var body = $('body');
       body.append('<script src="../js/src/elle_m_other.js"></script>');
       body.append('<script src="../js/src/elle_menu.js"></script>');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
-      body.append('<script src="../js/src/elle_topBtn.js"></script>');
-      body.append('<script src="../js/src/elle_m_beauty.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_topBtn.js"></script>');
+      body.append('<script src="../js/src/elle_m_fashion.js"></script>');
+      body.append('<script src="../js/src/elle_m_beauty.js"></script>');
       body.append('<script src="../js/src/elle_m_lovelife.js"></script>');
     });
   }

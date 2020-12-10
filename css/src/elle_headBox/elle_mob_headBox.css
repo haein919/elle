@@ -1,1 +1,35 @@
 /* elle_mob_headBox.css */
+
+@import url('../elle_headBox/elle_other_headBox.css');
+
+@media screen and (max-width:599px) {
+  /* 브라우저 가로폭480px 기준으로 작업 */
+  #wrap { position:relative; width:100%; margin:auto; background-image:url('../../../img/main/wrap_image.jpg');
+    background-repeat:no-repeat; background-position:50% 50%; background-size:auto 100%; }
+  
+/* headBox ================================================================================ */
+  #headBox { position:fixed; top:0; z-index:500; width:100%; height:100px; margin:auto; }
+  .head_outer { width:100%; height:100%; padding-top:20px; box-sizing:border-box; background-color:rgba(255,255,255,0.9); }
+  .head_outer h1 { position:relative; top:0; z-index:600; float:left; margin-left:20px; }
+  .head_outer h1 a { float:left; width:160px; height:60px; 
+    background-image:url('../../../img/logo/Elle_logo.png');
+    background-position:50% 50%; background-size:contain; background-repeat:no-repeat; }
+  .gnb { float:right; width:40px; height:40px; margin-right:20px; margin-top:10px; padding-top:0; margin-left:0; }
+    .btn_area { width:100%; height:100%; }
+    .btn_area button { width:100%; height:100%; font-size:3rem; line-height:3rem; }
+
+}
+/* mob_02.css */
+@media screen and (max-width:450px) {
+
+  /* headBox ================================================================================ */
+  #headBox { position:fixed; top:0; z-index:500; width:100%; height:100px; margin:auto; }
+  .head_outer { width:100%; height:100%; padding-top:20px; box-sizing:border-box; background-color:rgba(255,255,255,0.9); }
+  .head_outer h1 { position:relative; top:0; z-index:600; float:left; margin-left:20px; }
+  .head_outer h1 a { float:left; width:120px; height:60px; 
+    background-image:url('../../../img/logo/Elle_logo.png');
+    background-position:50% 50%; background-size:contain; background-repeat:no-repeat; }
+  .gnb { float:right; width:40px; height:40px; margin-right:20px; margin-top:10px; padding-top:0; margin-left:0; }
+    .btn_area { width:100%; height:100%; }
+    .btn_area button { width:100%; height:100%; font-size:3rem; line-height:3rem; }
+}

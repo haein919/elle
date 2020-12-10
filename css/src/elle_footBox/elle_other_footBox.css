@@ -1,0 +1,44 @@
+/* elle_other_footBox.css */
+
+ /* pc.css */
+@media screen and (min-width:1024px) {
+  /* #footBox ============================================================================================ */
+ #footBox { width:100%; height:300px; padding:4vw 3vw 1vw; box-sizing:border-box; background-color:#222; }
+ #footBox h2 { width:300px; height:60px; margin:auto; }
+ #footBox h2 a { display: block; width:100%; height:100%; 
+   background-image:url('../../../img/logo/Elle_logo_white.png'); background-repeat:no-repeat; background-position:50% 50%; background-size:contain; }
+
+   .company_info { width:100%; height:70%; text-align:center; padding-top:20px; box-sizing: border-box; }
+   .company_info > div, .company_info > address {display:inline-block; margin-right:2vw; }
+   .company_info > address { margin-right:0;}
+
+   .footlink {  width:28%; height:auto;  }
+   .footlink ul { width:100%; height:100%;  }
+   .footlink li { display:inline-block; margin-right:10px; }
+   .footlink li a { display:block; color:#fff; font-size:0.7rem; text-align:right; 
+     text-decoration:underline;}
+
+   .familysite {  width:35%; height:auto; }
+   .familysite ul { width:100%; height:100%;  }
+   .familysite li { display:inline-block; margin-right:1vw; }
+   .familysite li:last-child { margin-right:0; }
+   .familysite li a { display:block; width:100px; height:30px; background-repeat:no-repeat;
+     background-position:50% 50%; background-size:contain; }
+   .familysite li:nth-of-type(1) a { background-image:url('../../../img/logo/familysite/El_PC_foot_family_cosmopolitan.png'); }
+   .familysite li:nth-of-type(2) a { background-image:url('../../../img/logo/familysite/El_PC_foot_family_bazaar.png'); }
+   .familysite li:nth-of-type(3) a { background-image:url('../../../img/logo/familysite/El_PC_foot_family_esquire.png'); }
+
+   .familysite p { display:block; padding-top:10px; width:100%; height:20%; color:#fff; font-size:0.7rem;
+     text-align:center; }
+
+   .addr { width:27%; height:auto; }
+   .addr > div { width:100%; height:100%; }
+ 
+   .addr dl { float:left; width:auto; height:auto; margin-right:20px; margin-bottom:5px;
+     color:#fff; font-size:0.7rem; font-style:normal; }
+ 
+   .addr dt { float:left; width:auto; height:auto; margin-right:5px;
+     color:#fff; font-size:0.7rem; font-style:normal; }
+   .addr dd { float:left; width:auto; height:auto; }
+   
+}
