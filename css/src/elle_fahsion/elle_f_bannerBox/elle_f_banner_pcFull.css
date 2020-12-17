@@ -1,0 +1,18 @@
+/* elle_f_banner_pcFull.css */
+
+/* pcFull.css */
+@media screen and (min-width:1440px) {
+  /* #bannerBox =================================================================================== */
+  #bannerBox { width:100%; height:auto; min-height:47vw; margin-bottom:350px; }
+.banner_outer { position:relative; width:100%; height:100%; min-height:47vw; 
+  padding-top:250px; box-sizing:border-box; }
+  
+  .banner_title { position:absolute; top:-4vw; left:0; right:0; margin:auto;
+    width:auto; max-width:30vw; height:8vw; max-height:100px;  }
+  .banner_title > h3 { line-height:6rem; }
+  
+  .banner_btn { transform:translate(-50%, 90px); width:70%; }
+  
+  .banner_img_area { width:75%; max-width:73vw; height:33.85vw; margin:auto; }
+
+}

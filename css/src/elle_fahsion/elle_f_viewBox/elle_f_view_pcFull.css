@@ -4,5 +4,7 @@
 @media screen and (min-width:1440px) {
   /* 브라우저 가로폭1920px 기준으로 작업 */
   /* #viewBox ================================================================================== */
-  #viewBox { width:100%; height:auto; max-height:67.5vw; margin-bottom:350px; background-color:#ffd798; }
+  #viewBox { width:100%; height:auto; max-height:67.5vw; }
+  .view_outer { width:100%; height:100%; }
+  .view_outer video { width:100%; height:auto; object-fit:contain; }
 }

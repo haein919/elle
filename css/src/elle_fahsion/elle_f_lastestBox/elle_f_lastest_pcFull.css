@@ -1,0 +1,23 @@
+/* elle_f_lastest_pcFull.css */
+
+/* pcFull.css */
+@media screen and (min-width:1440px) {
+  /* #lastestBox =================================================================================== */
+  #lastestBox { width:100%; height:auto; max-height:73.242187vw; margin-bottom:250px; }
+  .lastest_outer { position:relative; width:100%; height:100%; max-height:73.242187vw; }
+  
+  .lastest_btn { display:block; position:absolute; top:0; left:50%;
+    width:80%; height:0; transform:translate(-50%, 750px); }
+    .lastest_btn button { width:100px; height:100px; 
+      background-repeat:no-repeat; 
+      background-position:50% 50%; background-size:cover; }
+    .lastest_btn>.next_btn { float:right; background-image:url('../../../../img/btn/next.png');
+      transform:translate(-200%, -470%); }
+    .lastest_btn>.prev_btn { float:left; background-image:url('../../../../img/btn/left-arrow.png');
+      transform:translate(200%, -130%);  }
+
+  .lastest_img_area { width:70%; height:auto; max-height:58.59375vw; margin:auto; }
+    .lastest_img_area ul { width:71vw; height:100%; margin:auto; }
+    .lastest_img_area li { float:left; width:17.708333vw; height:15.625vw; }
+    .lastest_img_area li:nth-of-type(4) { margin-left:17.708333vw; }
+}

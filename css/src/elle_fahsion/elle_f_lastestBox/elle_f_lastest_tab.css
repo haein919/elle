@@ -1,0 +1,14 @@
+/* elle_f_lastest_tab.css */
+
+/* tab.css */
+@media screen and (min-width:600px) and (max-width:1023px) {
+  /* 브라우저 가로폭1024px 기준으로 작업 */
+/* lastestBox ================================================================================ */
+#lastestBox { width:100%; height:auto; min-height:73.242187vw;  }
+.lastest_outer { width:100%; height:100%; min-height:73.242187vw; }
+
+.lastest_img_area { width:98%; height:auto; max-height:58.59375vw; margin:auto; }
+  .lastest_img_area ul { width:100%; height:100%; }
+  .lastest_img_area li { float:left; width:33.333333%; height:29.296878vw; }
+
+}
