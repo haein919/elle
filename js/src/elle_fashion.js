@@ -19,6 +19,7 @@ var body = $('body');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
       body.append('<script src="../js/src/elle_topBtn.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_f_banner.js"></script>');
     });
   }else if(nowT === dType[2]){
     wrap.load('./elleFashion/elle_f_other.html', function(){
@@ -27,6 +28,7 @@ var body = $('body');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
       body.append('<script src="../js/src/elle_topBtn.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_f_banner.js"></script>');
     });
   }else{
     wrap.load('./elleFashion/elle_f_other.html', function(){
@@ -35,6 +37,7 @@ var body = $('body');
       body.append('<script src="../js/src/elle_allmenu.js"></script>');
       body.append('<script src="../js/src/elle_topBtn.js"></script>');
       body.append('<script src="../js/src/elle_search.js"></script>');
+      body.append('<script src="../js/src/elle_f_banner.js"></script>');
 
     });
   }

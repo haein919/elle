@@ -1,1 +1,17 @@
 /* elle_f_hottopic_tab.css */
+
+/* tab.css */
+@media screen and (min-width:600px) and (max-width:1023px) {
+  /* 브라우저 가로폭1024px 기준으로 작업 */
+/* #hottopicBox ================================================================================ */
+#hottopicBox { width:100%; height:auto; min-height:48.828125vw; margin-bottom:100px; }
+
+.hottopic_outer { width:100%; height:auto; min-height:48.828125vw; }
+
+.hottopic_img_area { width:98%; height:39.0625vw; margin:auto; }
+.hottopic_img_area ul { width:100%; height:100%; }
+.hottopic_img_area li { position:relative; overflow:hidden;
+  float:left; width:25%; height:100%; }
+
+
+}

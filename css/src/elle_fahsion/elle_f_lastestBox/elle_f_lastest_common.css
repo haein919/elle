@@ -22,16 +22,17 @@
     .lastest_img05 a { background-image:url('../../../../img/sub01/sub01_lastest05.jpg'); }
     .lastest_img06 a { background-image:url('../../../../img/sub01/sub01_lastest06.jpg'); }
 
-    .lastest_img_area li a::before { display:block; content:" "; 
+    .lastest_img_area li a::before { 
+      display:block; content:" "; 
       position:absolute; top:0; left:0; 
       width:100%; height:100%; opacity:0; transition:all 300ms ease;
       background-color:rgba(0,0,0,0.7); border:5px solid #900; box-sizing: border-box; }
 
-    .center_line {display: block; position:absolute; z-index:10; top:70%; left:5%; 
+    .lastest_img_area .center_line {display: block; position:absolute; z-index:10; top:60%; left:5%; 
       width: 80%; height:0; text-align:left; color:#fff; }
-    .center_line > .center_text{ display: block; width: 100%; height: auto; 
+    .lastest_img_area .center_line > .center_text{ display: block; width: 100%; height: auto; 
       transform:translateY(70%); opacity: 0; transition: all 300ms ease; }
-    .center_text>.section { color:#e00; text-transform:uppercase; font-weight:bold; }
+    .lastest_img_area .center_text>.section { color:#e00; text-transform:uppercase; font-weight:bold; }
 
     .lastest_img_area li a:hover .center_text{ transform:translateY(-20%); opacity: 1;}
     .lastest_img_area li a:hover::before{ opacity: 1; }

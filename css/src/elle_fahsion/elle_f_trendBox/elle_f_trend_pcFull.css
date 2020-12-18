@@ -3,7 +3,7 @@
 /* pcFull.css */
 @media screen and (min-width:1440px) {
   /* #trendBox =================================================================================== */
-  #trendBox { width:100%; height:auto; max-height:70vw;  }
+  #trendBox { width:100%; height:auto; max-height:70vw; margin-bottom:250px; }
 
   .trend_img_area { width:65%; height:auto; min-height:40vw; margin:auto; }
   .trend_01, .trend_02 { height:22vw; }

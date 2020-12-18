@@ -4,7 +4,7 @@
 @media screen and (min-width:600px) and (max-width:1023px) {
   /* 브라우저 가로폭1024px 기준으로 작업 */
   /* #viewBox ================================================================================== */
-    #viewBox { width:100%; height:auto; max-height:75vw; margin-bottom:400px; background-color:#ffd798; }
+    #viewBox { width:100%; height:auto; max-height:75vw; margin-bottom:400px; background-color:#FCF3E2; }
     .view_outer { width:100%; height:auto; }
     .view_big_img { float:left; width:60%; height:100%; min-height:75vw;
       background-image:url('../../../../img/main/main_big.jpg'); background-repeat:no-repeat;

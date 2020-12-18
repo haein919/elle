@@ -1,1 +1,27 @@
 /* elle_f_hottopic_mob.css */
+
+/* mob.css */
+@media screen and (max-width:599px) {
+  /* 브라우저 가로폭480px 기준으로 작업 */
+/* hottopicBox ================================================================================ */
+  #hottopicBox { width:100%; height:auto; margin-bottom:0; }
+  .hottopic_outer { width:100%; height:auto; 
+    padding:30px 10px 20px; box-sizing:border-box;
+    background-color:#fff; }
+  .hottopic_outer > h3 { width:100%; height:auto; text-align:center; text-transform:uppercase; }
+
+  .hottopic_img_area { width:100%; height:auto; max-height:50vw; }
+  .hottopic_img_area ul { width:100%; height:auto; text-align:center; }
+  .hottopic_img_area li { display:inline-block; width:25vw; height:25vw;
+    margin:auto; }
+  .hottopic_img_area li:last-child { margin-right:0; }
+  .hottopic_img_area li a { display:block; width:100%; height:100%;
+    border-radius:100%;
+    background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+
+  .hottopic_01 a { background-image:url('../../../../img/sub01/sub01_hottopic01.jpg'); }
+  .hottopic_02 a { background-image:url('../../../../img/sub01/sub01_hottopic03.jpg'); }
+  .hottopic_03 a { background-image:url('../../../../img/sub01/sub01_hottopic05.jpg'); }
+
+  .hottopic_img_area li:hover a { transform:none; opacity:1; transition:none; }
+}

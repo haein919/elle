@@ -1,9 +1,15 @@
 /* elle_other_headBox.css */
 
-#headBox {  position:fixed; top:0; z-index:500; width:100%; height:100px; margin:auto; border-bottom:1px solid rgba(0,0,0,0.4);  }
-.head_outer { width:100%; height:100%; padding-top:20px; box-sizing:border-box; background-color:rgba(255,255,255,0.9); }
+#headBox {  position:absolute; top:30px; left:0; right:0;
+  z-index:2000; width:90%; height:100px; margin:auto; }
+.head_outer { width:100%; height:100%; padding-top:20px; box-sizing:border-box; background-color:rgba(255,255,255,0.8); }
+
+/* .head_outer::before { content:" "; display: block; 
+  position:absolute; top:0; left:0; right:0; margin:auto; z-index:-1;
+  background-color:rgba(255,255,255,0.9); width:100vw; height:100%;  } */
+
 .head_outer h1 { position:relative; width:160px; top:0; z-index:600; float:left; margin-left:20px; }
-.head_outer h1 a { float:left;  width:100%; height:5rem; height:60px;
+.head_outer h1 a { float:left;  width:80%; height:5rem; height:60px;
   background-image:url('../../../img/logo/Elle_logo.png');
   background-position:50% 50%; background-size:contain; background-repeat:no-repeat; }
 

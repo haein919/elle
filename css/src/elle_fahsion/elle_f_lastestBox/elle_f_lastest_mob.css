@@ -4,4 +4,24 @@
 @media screen and (max-width:599px) {
   /* 브라우저 가로폭480px 기준으로 작업 */
 /* lastestBox ================================================================================ */
+#lastestBox { width:100%; height:auto; margin-bottom:0; }
+ .lastest_outer { position:relative; width:100%; height:auto; 
+  padding:30px 10px 20px; box-sizing:border-box;
+  background-color:#fff;  }
+
+  .lastest_btn { display:block; position:absolute; bottom:50px; left:0; right:0; margin:auto; z-index:100;
+    width:40px; height:40px; border-radius:100%; background-color:#fff; box-shadow:2px 2px 5px #333; }
+  .lastest_btn button { width:40px; height:40px; }
+  .lastest_btn button i { font-size:1.1rem;}
+
+  .lastest_img_area { width:100%; height:auto; min-height:97.916666vw; margin-top:1.25rem; }
+  .lastest_img_area ul { width:100%; height:100%; }
+  .lastest_img_area li { float:left; width:43vw; height:45.833333vw; margin-bottom:3rem; }
+  .lastest_img_area li:nth-child(2n) { float:right; }
+  .lastest_img_area li:nth-last-child(-n+2) { display:none; margin-bottom: 0; }
+
+  .lastest_img_area li a { display:block; position:relative; 
+    width:100%; height:100%; border-radius:15px; box-shadow:0.1875rem 0.125rem 0.3125rem #777;
+    overflow: hidden; transition:all 300ms ease;
+    background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
 }

@@ -1,1 +1,56 @@
 /* elle_f_trend_mob.css */
+
+/* mob.css */
+@media screen and (max-width:599px) {
+  /* 브라우저 가로폭480px 기준으로 작업 */
+/* trendBox ================================================================================ */
+  #trendBox { width:100%; height:auto; margin-bottom:0; }
+  .trend_outer { width:100%; height:auto; padding:10px 30px 20px; box-sizing:border-box;
+    background-color:#fff;  }
+
+    .trend_outer > h3 { width:100%; height:auto; text-align:center; text-transform:uppercase; }
+    
+    .trend_img_area { width:100%; height:auto; min-height:97.916666vw; margin-top:2rem; }
+    .trend_img_area ul { width:100%; height:auto; }
+    .trend_img_area li { position:relative; width:100%; height:35vw; margin-bottom:50px;
+      border-radius:15px; background-color:#eee; }
+      .trend_img_area li:last-child { margin-bottom:0; }
+      .trend_img { float:left; width:40%; height:100%; border-radius:10px; }
+      .trend_img a { display:block; width:100%; height:100%; min-height:20.83333vw;
+        border-top-left-radius:10px; border-bottom-left-radius:10px; 
+        background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+      
+      .trend_img_01 a { background-image:url('../../../../img/sub01/trend_mob_01.jpg');}
+      .trend_img_02 a { background-image:url('../../../../img/sub01/trend_mob_02.jpg');}
+      .trend_img_03 a { background-image:url('../../../../img/sub01/trend_mob_03.jpg');}
+      .trend_img_04 a { background-image:url('../../../../img/sub01/trend_mob_04.jpg');}
+  
+      .trend_context { float:right; width:60%; height:auto; }
+      .trend_context dl { width:100%; height:100%; padding:10px; box-sizing:border-box; }
+      .trend_context dt { width:100%; height:20%; font-size:1rem; font-weight:bold; word-break:keep-all; }
+      .trend_context dd { width:100%; height:70%; margin-top:5px; font-size:1rem; color:#333; word-break:keep-all; line-height:1; }
+      .trend_context button { position:absolute; bottom:10px; right:10px; font-size:1rem;
+        width:60px; height:30px; border-radius:5px; background-color:#444; color:#fff; }
+
+    .trend_img_area dl::before { display:none; }
+    .trend_img:hover a { transform:none; transition:none; }
+  }
+  
+  /* mob_02.css */
+  @media screen and (max-width:450px) {
+    .trend_img_area { width:100%; height:auto; min-height:97.916666vw; margin-top:1.25rem; }
+      .trend_img_area ul { width:100%; height:auto; }
+      .trend_img_area li { width:100%; height:auto; min-height:20.833333vw; margin-bottom:20px;
+        padding:10px; box-sizing:border-box;
+        background-color:#fff; }
+        .trend_img { float:none; margin:auto; width:100%; max-width:240px; height:200px; border-radius:0; }
+        .trend_img a { display:block; position:relative; width:100%; height:100%; border-radius:10px;
+         background-repeat:no-repeat; background-position:50% 50%; background-size:cover; }
+    
+        .trend_context { float:none; position:relative; width:80%; height:auto; margin:auto; }
+        .trend_context dl { width:100%; height:100%; padding:10px; box-sizing:border-box; text-align:center; }
+        .trend_context dt { width:100%; height:20%; font-size:1rem; font-weight:bold; word-break:keep-all; }
+        .trend_context dd { width:100%; height:70%; margin-top:5px; font-size:1rem; color:#333; word-break:keep-all; }
+        .trend_context button {display:block; position:static; margin:auto; margin-top:10px;
+          width:60px; height:30px; border-radius:5px; background-color:#444; color:#fff; }
+  }

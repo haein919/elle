@@ -5,7 +5,7 @@
   /* 브라우저 가로폭1440px 기준으로 작업 */
 /* #trendBox =================================================================================== */
 #trendBox { width:100%; height:auto; min-height:69.444444vw;
-  padding-top:100px; box-sizing:border-box; }
+  padding-top:100px; box-sizing:border-box; margin-bottom:250px; }
 
   .trend_img_area { width:80%; height:auto; min-height:60.416666vw; margin:auto; }
   .trend_01, .trend_02 { height:29.166666vw; }
