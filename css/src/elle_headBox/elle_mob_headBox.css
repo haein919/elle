@@ -17,7 +17,6 @@
   .gnb { float:right; width:40px; height:40px; margin-right:20px; margin-top:10px; padding-top:0; margin-left:0; }
     .btn_area { width:100%; height:100%; }
     .btn_area button { width:100%; height:100%; font-size:3rem; line-height:3rem; }
-
 }
 /* mob_02.css */
 @media screen and (max-width:450px) {
