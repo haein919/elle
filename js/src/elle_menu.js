@@ -20,8 +20,8 @@
      }else{
        allmenu.stop().fadeOut();
        menuBtn.removeClass('on');
-
      }
    });
+
   // jQuery end
 })(jQuery);
